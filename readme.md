@@ -30,5 +30,19 @@ A discord overlay that can be used anywhere on your Windows desktop.
 
 Just close the program directly from your task bar or in anyway you like if you don't need the overlay anymore.
 
-#### Sure! You can use both together!
+##### Sure! You can use both together!
 
+#### Moving overlays
+
+##### Moving TXT overlay
+
+* Press and hold you mouse on top of the TXT overlay and start dragging around
+
+##### Moving VC overlay
+
+- Switch and focus on the window of Overlay Anywhere you can do this by clicking on it in the task bar
+- Hold Ctrl on keyboard and you will see a black translucent box appeared
+- Press and hold you mouse on top of it and start dragging around
+- Release Ctrl after you are done dragging
+
+##### 

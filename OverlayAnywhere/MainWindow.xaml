@@ -9,9 +9,10 @@
         mc:Ignorable="d"
         AllowsTransparency="True"
         WindowStyle="None"
-        PreviewLostKeyboardFocus="Window_PreviewLostKeyboardFocus"
         VerticalAlignment="Center"
         HorizontalAlignment="Center"
+        KeyDown="Window_KeyDown"
+        KeyUp="Window_KeyUp"
         Title="MainWindow" Height="450" Width="800" Background="Transparent">
     <Grid>
         <jas:DragCanvas>
@@ -26,7 +27,15 @@
                     Margin="0,0,0,0"
                     HorizontalAlignment="Left"/>
 
-                <Rectangle Name="dragControl_vc" Fill="#FF0F0F0F" HorizontalAlignment="Left" Height="10" Stroke="Black" VerticalAlignment="Top" Width="312" Cursor="ScrollAll"/>
+                <Grid Name="dragControl_vc" Opacity="0" Cursor="ScrollAll">
+                    <Rectangle  Fill="#090909" HorizontalAlignment="Left" Height="600" StrokeThickness="10" Stroke="Black" VerticalAlignment="Top" Width="312"  AutomationProperties.HelpText="VC Area"/>
+                    <Label 
+                        Content="VC Area"
+                        FontSize="20"
+                        HorizontalAlignment="Center" 
+                        VerticalAlignment="Center" Foreground="White" FontFamily="Microsoft YaHei Light" HorizontalContentAlignment="Center"/>
+
+                </Grid>
             </Grid>
 
 
@@ -40,7 +49,7 @@
                     VerticalAlignment="Bottom"
                     HorizontalAlignment="Right"/>
 
-                <Rectangle Name="dragControl_text" Fill="#0f0f0f" Margin="0,0,3,0" HorizontalAlignment="right" Height="36"  VerticalAlignment="Top" Width="50" Cursor="ScrollAll"/>
+                <Rectangle Name="dragControl_text" Fill="Transparent" Margin="0,0,3,0" HorizontalAlignment="right" Height="312"  VerticalAlignment="Top" Width="600" Cursor="ScrollAll"/>
             </Grid>
         </jas:DragCanvas>
 

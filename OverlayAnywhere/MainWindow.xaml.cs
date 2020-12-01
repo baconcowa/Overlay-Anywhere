@@ -25,10 +25,6 @@ namespace WpfApp1
             InitializeComponent();
         }
 
-        private void Window_PreviewLostKeyboardFocus(object sender, KeyboardFocusChangedEventArgs e)
-        {
-        }
-
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             this.Width = System.Windows.SystemParameters.PrimaryScreenWidth;
@@ -53,6 +49,20 @@ namespace WpfApp1
         private void initScreen_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             this.DragMove();
+        }
+
+        private void Window_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.LeftCtrl || e.Key == Key.RightCtrl)
+            {
+                Console.WriteLine("okok");
+                dragControl_vc.Opacity = 0.5;
+            }
+        }
+
+        private void Window_KeyUp(object sender, KeyEventArgs e)
+        {
+            dragControl_vc.Opacity = 0;
         }
     }
 }
