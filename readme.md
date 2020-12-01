@@ -46,3 +46,6 @@ Just close the program directly from your task bar or in anyway you like if you 
 - Release Ctrl after you are done dragging
 
 ##### 
+
+## Credits
+Icons made by [Freepik](https://www.flaticon.com/authors/freepik "Freepik") from [www.flaticon.com](https://www.flaticon.com/ "Flaticon")
