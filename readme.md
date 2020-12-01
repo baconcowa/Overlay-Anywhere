@@ -1,5 +1,11 @@
 # Overlay Anywhere
 
+A discord overlay that can be used anywhere on your Windows desktop.
+
+## Download
+
+[Download from here](https://github.com/baconcowa/Overlay-Anywhere/releases/tag/v1.0)
+
 ## Usage
 
 #### If you will use the TXT overlay
@@ -22,6 +28,7 @@
 
 
 
+Just close the program directly from your task bar or in anyway you like if you don't need the overlay anymore.
 
+#### Sure! You can use both together!
 
-#### Sure! You can use both!
