@@ -22,7 +22,6 @@ A discord overlay that can be used anywhere on your Windows desktop.
 
 1. Go to https://streamkit.discord.com/overlay, click on Install for OBS 
 2. Customize your Voice Widget
-   * Notice that due to the limitation of Discord StreamKit, you may have to re-enter the Voice Channel you have selected in Discord manually after you complete the setup of Overlay Anywhere if you enabled "Show Speaking Users Only"
 3. Copy the link in the right panel after that
 ![](https://i.pinimg.com/originals/15/5b/1e/155b1e26299ea4b6c27d76222d22def6.png)
 4. Go back to Overlay Anywhere
