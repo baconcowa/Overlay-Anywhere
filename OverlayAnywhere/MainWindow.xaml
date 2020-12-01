@@ -1,0 +1,84 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:cefSharp="clr-namespace:CefSharp.Wpf;assembly=CefSharp.Wpf"
+        xmlns:jas="clr-namespace:WPF.JoshSmith.Controls;assembly=WPF.JoshSmith.Controls.DragCanvas"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        AllowsTransparency="True"
+        WindowStyle="None"
+        VerticalAlignment="Center"
+        HorizontalAlignment="Center"
+        KeyDown="Window_KeyDown"
+        KeyUp="Window_KeyUp"
+        Title="MainWindow" Height="450" Width="800" Background="Transparent">
+    <Grid>
+        <jas:DragCanvas>
+            <Grid x:Name="vc_section" Visibility="Hidden">
+                <cefSharp:ChromiumWebBrowser 
+                    Name="vc"
+                    Grid.Row="1"
+                    Background="Transparent"
+                    Width="312"
+                    Height="600"
+                    VerticalAlignment="Top"
+                    Margin="0,0,0,0"
+                    HorizontalAlignment="Left"/>
+
+                <Grid Name="dragControl_vc" Opacity="0" Cursor="ScrollAll">
+                    <Rectangle  Fill="#090909" HorizontalAlignment="Left" Height="600" StrokeThickness="10" Stroke="Black" VerticalAlignment="Top" Width="312"  AutomationProperties.HelpText="VC Area"/>
+                    <Label 
+                        Content="VC Area"
+                        FontSize="20"
+                        HorizontalAlignment="Center" 
+                        VerticalAlignment="Center" Foreground="White" FontFamily="Microsoft YaHei Light" HorizontalContentAlignment="Center"/>
+
+                </Grid>
+            </Grid>
+
+
+            <Grid x:Name="txt_section" Visibility="Hidden">
+                <cefSharp:ChromiumWebBrowser 
+                    Name="text"
+                    Grid.Row="0"
+                    Background="Transparent"
+                    Width="580"
+                    Height="215"
+                    VerticalAlignment="Bottom"
+                    HorizontalAlignment="Right"/>
+
+                <Rectangle Name="dragControl_text" Fill="Transparent" Height="215"  VerticalAlignment="Top" Width="580" Cursor="ScrollAll"/>
+            </Grid>
+        </jas:DragCanvas>
+
+        <Grid Name="initScreen" Background="#90000000"
+              MouseLeftButtonDown="initScreen_MouseLeftButtonDown">
+            <TextBox Name="vc_url" TextWrapping="Wrap" Margin="0,0,0,100" Width="672" Height="50" BorderThickness="0" SelectionOpacity="0" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black"/>
+            <Label 
+                Content="Enter you streamkit url for VOICE CHAT:"
+                FontSize="20"
+                
+                HorizontalAlignment="Center" Margin="0,0,0,200" VerticalAlignment="Center" Foreground="White" FontFamily="Microsoft YaHei Light" Width="672" HorizontalContentAlignment="Center"/>
+
+            <TextBox Name="txt_url" TextWrapping="Wrap" Margin="0,100,0,0" Width="672" Height="50" BorderThickness="0" Foreground="Black"/>
+            <Label 
+                Content="Enter you streamkit url for Text Messages:"
+                FontSize="20"
+                
+                HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Foreground="White" FontFamily="Microsoft YaHei UI Light" Width="672" HorizontalContentAlignment="Center"/>
+
+            <Button 
+                Click="Button_Click"
+                Content="Continue" HorizontalAlignment="Center" Margin="0,250,0,0" VerticalAlignment="Center" Width="160" Foreground="Black" Background="White" BorderThickness="0" FontSize="20" Padding="10"/>
+            <Button Content="Exit" HorizontalAlignment="Right" Margin="0,0,20,20" VerticalAlignment="Bottom" Width="75" Click="Button_Click_1" BorderThickness="0" Foreground="White" Background="#FFE86464"/>
+
+
+        </Grid>
+
+
+    </Grid>
+
+</Window>
+
