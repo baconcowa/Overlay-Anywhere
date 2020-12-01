@@ -4,7 +4,7 @@ A discord overlay that can be used anywhere on your Windows desktop.
 
 ## Download
 
-[Download from here](https://github.com/baconcowa/Overlay-Anywhere/releases/tag/v1.0)
+[Download from here](https://github.com/baconcowa/Overlay-Anywhere/releases)
 
 ## Usage
 
