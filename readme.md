@@ -45,9 +45,9 @@ Just close the program directly from your task bar or in anyway you like if you 
 - Switch and focus on the window of Overlay Anywhere, you can do this by clicking on it in the task bar if the window is not already focused
   - This is how it looks when focused ![](https://i.ibb.co/VCSrqWf/Capture.png)
   - This is how it looks when not focused ![](https://i.ibb.co/LpPWyg6/1.png)
-- Hold Ctrl on keyboard and you will see a black translucent box appeared
+- Hold Ctrl on keyboard and you will see a black translucent box appear
 - Press and hold your mouse on top of it and start dragging around
-- Release Ctrl after you are done dragging
+- Release Ctrl after you done dragging
 
 ##### 
 
