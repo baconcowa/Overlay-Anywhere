@@ -33,7 +33,7 @@ A discord overlay that can be used anywhere on your Windows desktop.
 
 Just close the program directly from your task bar or in anyway you like if you don't need the overlay anymore.
 
-##### Sure! You can use both together!
+##### Sure! You can use both overlays together!
 --- 
 #### Moving overlays
 
