@@ -12,20 +12,23 @@ A discord overlay that can be used anywhere on your Windows desktop.
 
 1. Go to https://streamkit.discord.com/overlay, click on Install for OBS 
 2. Customize your Chat Widget
-3. Copy the link in the left panel after that
+3. Copy the link in the right panel after that
+![](https://i.pinimg.com/originals/15/5b/1e/155b1e26299ea4b6c27d76222d22def6.png)
 4. Start Overlay Anywhere
 5. Paste it into the second field
+![](https://i.pinimg.com/originals/67/7a/30/677a304aaaac514e3b5f2c9f43d50339.png)
 
 #### If you will use the Voice Chat overlay
 
 1. Go to https://streamkit.discord.com/overlay, click on Install for OBS 
 2. Customize your Voice Widget
    * Notice that due to the limitation of Discord StreamKit, you may have to re-enter the Voice Channel you have selected in Discord manually after you complete the setup of Overlay Anywhere if you enabled "Show Speaking Users Only"
-3. Copy the link in the left panel after that
+3. Copy the link in the right panel after that
+![](https://i.pinimg.com/originals/15/5b/1e/155b1e26299ea4b6c27d76222d22def6.png)
 4. Go back to Overlay Anywhere
 5. Paste it into the first field
 6. Click Continue and enjoy!
-
+![](https://i.pinimg.com/originals/38/8e/2b/388e2b81a3f60f82e2fdf394c6b2e05c.png)
 
 
 Just close the program directly from your task bar or in anyway you like if you don't need the overlay anymore.
