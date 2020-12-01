@@ -47,7 +47,7 @@ Just close the program directly from your task bar or in anyway you like if you 
   - This is how it looks when focused ![](https://i.ibb.co/VCSrqWf/Capture.png)
   - This is how it looks when not focused ![](https://i.ibb.co/LpPWyg6/1.png)
 - Hold Ctrl on keyboard and you will see a black translucent box appeared
-- Press and hold you mouse on top of it and start dragging around
+- Press and hold your mouse on top of it and start dragging around
 - Release Ctrl after you are done dragging
 
 ##### 
