@@ -39,7 +39,7 @@ Just close the program directly from your task bar or in anyway you like if you 
 
 ##### Moving TXT overlay
 
-* Press and hold you mouse on top of the TXT overlay and start dragging around
+* Press and hold your mouse on top of the TXT overlay and start dragging around
 
 ##### Moving VC overlay
 
