@@ -1,3 +1,5 @@
+# This project is no longer under active development because I am too busy at study
+
 # Overlay Anywhere
 
 A discord overlay that can be used anywhere on your Windows desktop.
